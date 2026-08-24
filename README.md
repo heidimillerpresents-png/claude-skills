@@ -25,3 +25,11 @@ A structured, repeatable process for turning a customer nomination into
 a finished case study, from intake through interviews to a polished
 draft, with AI-assisted drafting at each stage. Originally used CoPilot; now skilled for Claude. See
 `case-study-interview-to-draft-pipeline/SKILL.md`.
+
+## decision-maker-outreach-drafter
+
+Researches a named hiring manager or decision-maker, then drafts a
+short, specific first-touch or follow-up outreach message grounded in
+that research. Pairs well with `job-listing-strategic-analysis` when
+both are run for the same company. See
+`decision-maker-outreach-drafter/SKILL.md`.
