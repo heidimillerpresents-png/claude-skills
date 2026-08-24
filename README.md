@@ -23,5 +23,5 @@ before running it.
 
 A structured, repeatable process for turning a customer nomination into
 a finished case study, from intake through interviews to a polished
-draft, with AI-assisted drafting at each stage. See
+draft, with AI-assisted drafting at each stage. Originally used CoPilot; now skilled for Claude. See
 `case-study-interview-to-draft-pipeline/SKILL.md`.
