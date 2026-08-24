@@ -18,3 +18,10 @@ two-page resume for the ones worth pursuing. See
 resume length, style preferences) reflect my own defaults. If you use
 it, edit the rules in the SKILL.md to match your own resume standards
 before running it.
+
+## case-study-interview-to-draft-pipeline
+
+A structured, repeatable process for turning a customer nomination into
+a finished case study, from intake through interviews to a polished
+draft, with AI-assisted drafting at each stage. See
+`case-study-interview-to-draft-pipeline/SKILL.md`.
