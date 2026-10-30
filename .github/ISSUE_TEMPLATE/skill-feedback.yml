@@ -1,0 +1,55 @@
+name: Skill feedback
+description: Tell me how one of these Claude skills worked for you
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying one of these skills. Short answers are fine.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Which skill did you use?
+      options:
+        - job-listing-strategic-analysis
+        - resume-tailoring-pipeline
+        - linkedin-profile-review
+        - daily-job-search
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - It didn't work or gave a wrong result
+        - It worked, but could be better
+        - Idea for a new feature or skill
+        - It worked well
+    validations:
+      required: true
+  - type: textarea
+    id: asked
+    attributes:
+      label: What did you ask Claude to do?
+      description: Paste or paraphrase your request. Leave out anything private.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you change?
+      description: Steps that felt slow, confusing or unnecessary, or customizations you made.
+  - type: input
+    id: setup
+    attributes:
+      label: Where did you run it?
+      placeholder: e.g. Claude app (Cowork), Claude Code, claude.ai
