@@ -8,6 +8,12 @@ Runs a management-consulting-style analysis of a company's job listings
 to identify the real business pain points behind an open role, for use
 when applying to that role. See `job-listing-strategic-analysis/SKILL.md`
 
+## daily-job-search
+
+Runs a verified daily job search for one candidate: pulls new postings from a job feed and a contract-role web search, filters them to the candidate's lanes and location rules, removes roles already in their application tracker, confirms each role is open on the employer's own site, ranks the fit, matches LinkedIn connections, and publishes a shortlist. Fill in the `{{CUSTOMIZE: ...}}` placeholders before first use.
+
+See [`daily-job-search/SKILL.md`](daily-job-search/SKILL.md) for details.
+
 ## resume-tailoring-pipeline
 
 Triages a batch of job postings for fit, then produces a tailored
